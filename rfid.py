@@ -12,7 +12,7 @@ dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 # Membaca inventaris dari file log jika ada
 client = pymongo.MongoClient("mongodb+srv://abyan:xXKjtyEjckDl6wkD@adara.u7spbca.mongodb.net/?retryWrites=true&w=majority")
 db = client['SAI']
-my_collections = db['stock']
+my_collections = db['rack']
 
 if os.path.exists("inventory.log"):
     with open("inventory.log", "r") as log_file:

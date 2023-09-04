@@ -1,8 +1,8 @@
 import time
 import requests
 
-TOKEN = "BBFF-qCKPZTnjaFquClxX0rXCxewYTdpCsR"  # Put your TOKEN here
-DEVICE_LABEL = "sic"  # Put your device label here 
+TOKEN = "BBFF-L8nXYQVrrajdIwxWp9amo1EtbhaBeS"  # Put your TOKEN here
+DEVICE_LABEL = "sic4"  # Put your device label here 
 VARIABLE_LABEL_1 = "Ultra1" 
 VARIABLE_LABEL_2 = "Ultra2"  
 VARIABLE_LABEL_3 = "Ultra3" 
